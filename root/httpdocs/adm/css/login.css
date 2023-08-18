@@ -1,0 +1,102 @@
+		#geral {
+	width: 870px;
+	height: 400px;
+	margin: 0 auto;
+	position: absolute;
+	top: 388px;
+	left: 50%;
+	margin: -200px 0 0 -435px;
+	background-image: url(../images/fundo-login.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+	
+	#geral #topo {
+		float: left;
+		width: 870px;
+		height: 116px;	}
+	
+		#geral #topo h1 {
+			display: block;
+			float: left;
+			margin-top: 35px;
+			margin-left: 40px;		}
+		
+		#geral #topo p {
+			float: left;
+			margin-top: 68px;
+			margin-left: 60px;
+			font-size: 11px;
+			line-height: 15px;		}
+		
+		#geral #topo p strong {	color: #1DA737;		}
+		
+		#geral #topo .cerebro {	float: right; margin-top: 25px; margin-right: 35px;		}
+	
+	#geral #conteudo {		float: left; width: 870px;	height: 250px;	}
+		
+		#geral #conteudo form {
+			width: 230px;
+			height: 200px;
+			margin-top: 81px;
+			margin-left: 60px;
+			* margin-top: 73px;		}
+		
+		#geral #conteudo form label {
+			display: block;
+			width: 230px;
+			height: 40px;
+			color: #FFF;
+			margin-top: 8px;		}
+		
+		#geral #conteudo form label input {
+			float: right;
+			width: 160px;
+			height: 25px;
+			padding: 2px;
+			font-size: 13px;
+			border: 0;
+			color: #666;
+			* height: 20px;
+			* padding: 5px;		}
+		
+		#geral #conteudo form button {
+			display: block;
+			width: 83px;
+			height: 33px;
+			margin-top: 20px;
+			text-indent: -100000px;
+			background: transparent url(../images/botao-login.png) no-repeat;
+			cursor: hand;
+			border: 0;		}
+		
+		#geral #conteudo #acesso-bloqueado { width: 280px;	margin-top: 65px;	}
+		#geral #conteudo #acesso-bloqueado h2 {
+				background-color: #C00;
+				color: #FFF;
+				padding: 5px;
+				font-family: Tahoma;
+				font-size: 14px;
+				font-weight: bold;
+				text-align: center;	}
+			
+			#geral #conteudo #acesso-bloqueado p {	font-size: 11px;	color: #FFF; line-height: 17px;}
+			
+			#geral #conteudo #acesso-bloqueado p strong {	text-decoration: underline;		}
+			
+			#geral #conteudo #acesso-bloqueado .tempo-restante {color: #33FF00;		font-weight: bold;	font-size: 12px;	padding: 5px;	}
+		
+	#geral #rodape {	float: left;	width: 870px;	height: 30px;	}
+		
+		#geral #rodape p { color:#FFF;
+			float: left;
+			margin-left: 11px;
+			margin-top: 10px;
+			font-size: 11px;		}
+		
+		#geral #rodape p a {text-decoration: underline;		}
+		
+		#geral #rodape p a:hover {	text-decoration: none;	color: #1DA737;		}
+		
+		#geral #rodape p.by {	float: right;	margin-right: 11px;		}
+		input{ background:#FFF}

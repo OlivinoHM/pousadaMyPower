@@ -1,0 +1,103 @@
+body, table 
+	{	font-family: verdana, arial; 
+		font-size: 10px; 
+		color: #000000 }
+
+input, textarea, select 
+	{	font-family: verdana, arial; 
+		font-size: 11px; 
+		color: #000000;
+		background: #FFFFFF;
+		border:1px solid #999999; }	
+
+button 
+	{	border:1px solid #999999;
+		background:#999999;
+		color:#FFFFFF; 
+		font-size: 10px; }
+
+.titulo	{	color:#999999;
+		font-size: 12px; 
+		font-weight:bold;
+		/*line-height:0px;*/}
+
+.link {	text-decoration:none; color:#666666; }
+.link:hover { color:#C2CBEF; }
+
+.menutitle{ 
+cursor:pointer;
+/*margin-left:1px;*/
+/*margin-bottom: 5px;*/
+background-color:#868686;
+color:#FFFFFF;
+width:164px;
+padding:6px;
+text-align:left;
+text-indent:10px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:bold;
+/*/*/border:0px solid #000000;/* */
+}
+
+.submenu{
+text-align:left;
+background-color:#9B9B9B;
+width:164px;
+color:#DFDFDF;
+}
+
+.sublink{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#DFDFDF;
+line-height:20px;
+text-decoration:none
+}
+
+.textoAdmin{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+.textoForm{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+.comboBox{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+width:136px;
+}
+
+.textlink{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#666666;
+}
+
+.divMouse {
+	cursor: hand;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666666;
+}
+.bg {
+	background-attachment: fixed;
+	background-image: url(/imagens/bg_site.gif);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+.bgmenuleft {
+	background-attachment: fixed;
+	background-image: url(imagens/adminLeft.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+.bgmain {
+	background-attachment: fixed;
+	background-image: url(adm/imagens/bg_main.gif);
+	background-repeat: repeat-x;
+	background-position: center top;
+}

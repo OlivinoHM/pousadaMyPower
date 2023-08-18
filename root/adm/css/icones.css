@@ -1,0 +1,100 @@
+@font-face {   
+	font-family: 'icomoon' ;
+	src:url('../fonts/icomoon.eot?s8z4yy');
+	src:url('../fonts/icomoon.eot?#iefixs8z4yy') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?s8z4yy') format('woff'),
+		url('../fonts/icomoon.ttf?s8z4yy') format('truetype'),
+		url('../fonts/icomoon.svg?s8z4yy#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;}
+
+.icon-g [class^="icon-"]{ font-size:x-large; }
+.icon-g{   font-size:13px; font-family:"Verdana";}
+.icones{ padding:10px; float: left; }
+ @font-face {
+		font-family: 'ecoicons';
+		src: url("../fonts/ecoicons/ecoicons.eot");
+		src: url("../fonts/ecoicons/ecoicons.eot?#iefix") 
+		format("embedded-opentype"), 
+		url("../fonts/ecoicons/ecoicons.woff") 
+		format("woff"), url("../fonts/ecoicons/ecoicons.ttf") 
+		format("truetype"), 
+		url("../fonts/ecoicons/ecoicons.svg#ecoicons") 
+		format("svg");}
+		
+.bnt{ border-radius:5px; padding:5px 15px 5px 15px;  color:#FFF; font-size:16px; }
+/* Icomoon.com */
+[class^="icon-"], [class*=" icon-"] {	font-family: 'icomoon'; }
+.icon-home:before {	content: "\e601"; color: #09C;}
+.icon-casa:before {	content: "\e602"; color:#F60;}
+.icon-newspaper:before { content: "\e604"; color:#C00}
+.icon-foto:before { content: "\e606"; color:#09C;}
+.icon-library:before { content: "\e607"; color: #429BBD }
+.icon-file:before {	content: "\e608"; color: #095}
+.icon-dados:before { content: "\e609"; color:#399 }
+.icon-categoria:before { content: "\e60a"; color:#900 }
+.icon-sub-categoria:before { content: "\e60b"; color: #099  }
+.icon-tag:before { content: "\e60c"; color:#F60 }
+.icon-sub-titulo:before { content: "\e60d"; color: #F90 }
+.icon-qrcode:before { content: "\e60e"; color: #909 }
+.icon-ticket:before { content: "\e60f"; color: #096 }
+.icon-financeiro:before { content: "\e610"; color: #666 }
+.icon-fone:before {	content: "\e611"; color: #FF1A8C}
+.icon-endereco:before {	content: "\e612"; color: #9F5000 }
+.icon-local:before { content: "\e613"; color: #F00 }
+.icon-calendario:before { content: "\e614"; color: #690 }
+.icon-bubble:before { content: "\e615"; color: #93F }
+.icon-user:before {	content: "\e618"; color: #999 }
+.icon-usuarios:before {	content: "\e619"; color: #777 }
+.icon-busca:before { content: "\e61b"; color: #C60 }
+.icon-zoomin:before { content: "\e61c"; color:00A6A6 }
+.icon-zoomout:before {	content: "\e61d"; color:00A6A6 }
+.icon-senha:before { content: "\e61e"; color: #FEB52E }
+.icon-settings:before {	content: "\e61f"; color: #09C }
+.icon-painel:before { content: "\e620"; color: #06F	}
+.icon-estatistica:before {	content: "\e621"; color: #F36 }
+.icon-estatistica2:before {	content: "\e622"; color: #F90}
+.icon-estatistica3:before {	content: "\e623"; color: #00D2D2 }
+.icon-cafe:before {	content: "\e624"; color: #B05800 }
+.icon-remover:before { content: "\e625"; color: #C00 }
+.icon-briefcase:before { content: "\e626"; color: #96F}
+.icon-sair:before {	content: "\e627"; color: #C00 }
+.icon-download:before {	content: "\e628"; color: #0C0 }
+.icon-download:hover {	content: "\e628"; color: #9F0 }
+.icon-upload:before { content: "\e629"; color: #6C0}
+.icon-importante:before { content: "\e62a"; color: #FDAB02 }
+.icon-antesao:before {	content: "\e62c"; color: #F90 }
+.icon-fechar:before { content: "\e62d"; color: #C00 }
+.icon-ok2:before {	content: "\e62e"; color: #6C0 }
+.icon-menus:before { content: "\e62f"; color:#666;   }
+.icon-mais:before {	content: "\e630"; color: #0C9; }
+.icon-html5:before { content: "\e632"; color: #F36 }
+
+/* 1. Reset default browser styles ------------------------------------- */
+.pading{ padding:15px;}
+ 
+/* ESTRUTURA -------------------------------------------*/
+.buton{  width:260px; position:fixed; margin-left:-10px; padding:10px; bottom:0px; color:#fff;  text-align: center;}
+.icone{ float:left; background:#CCC; border-radius:5px;  height:60px; text-align:center; padding:10px; margin:5px;line-height:15px !important;  }
+.box > [class^="icon-"]{ font-size:24px;}
+.font-p { font-size:15px;  padding-bottom:15px;color:#FFF;font-family:'Montserrat',sans-serif !important;	} 
+.font-m { font-size:22px;} 
+.font-m:hover { color:#999; } 
+.font-g { font-size:30px;}
+.left{ float:left;}
+.right{ float:right}
+.pading-botao{ padding: 0px 10px 0px 10px}
+.radius{ border-radius:5px;}
+.botao:hover{ background:#099; color:#FFF;}
+ 
+ /* ICONES ---------------------------------------------------*/
+.icone:hover{ background: #9C0; color:#FFF; } 
+.icone{  width:65px; height:90px; background: #1E4566; color:#fff;} 
+
+/* BOTOES ---------------------------------------------------*/
+
+.botoes{border-radius:5px; color:#FFF; margin:5px; padding:5px 15px 5px 15px;}
+.b-cadastrar{ background:#090;}
+.b-alterar{ background: #F60;}
+.b-excluir{ background: #C00;}
+.box > a { color:#fff; background:#900; padding:5px; margin:5px; border-radius:5px;} c{ color: #F90; }

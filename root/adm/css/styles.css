@@ -1,0 +1,459 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #eeeeee; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #cecece; SCROLLBAR-3DLIGHT-COLOR: #cecece; SCROLLBAR-ARROW-COLOR: #757575; SCROLLBAR-TRACK-COLOR: #ffffff; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+.duvidas {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: 1px solid; WIDTH: 205px; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.busca {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: 1px solid; WIDTH: 160px; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.nome_msg {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.cidade_msg {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.fone_msg {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.msg {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; HEIGHT: 100px; BACKGROUND-COLOR: #ffffff
+}
+.cadastro {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.cambio_busca {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: 1px solid; WIDTH: 180px; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.agencia {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: 1px solid; WIDTH: 70px; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.cep {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: 1px solid; WIDTH: 70px; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.campo {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+INPUT {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.form20 {
+	BORDER-RIGHT: #b0b0b0 1px solid; BORDER-TOP: #b0b0b0 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: #b0b0b0 1px solid; WIDTH: 20px; BORDER-BOTTOM: #b0b0b0 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.form40 {
+	BORDER-RIGHT: #b0b0b0 1px solid; BORDER-TOP: #b0b0b0 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: #b0b0b0 1px solid; WIDTH: 40px; BORDER-BOTTOM: #b0b0b0 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.form60 {
+	BORDER-RIGHT: #b0b0b0 1px solid; BORDER-TOP: #b0b0b0 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: #b0b0b0 1px solid; WIDTH: 60px; BORDER-BOTTOM: #b0b0b0 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.form90 {
+	BORDER-RIGHT: #b0b0b0 1px solid; BORDER-TOP: #b0b0b0 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: #b0b0b0 1px solid; WIDTH: 90px; BORDER-BOTTOM: #b0b0b0 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.form100 {
+	BORDER-RIGHT: #b0b0b0 1px solid; BORDER-TOP: #b0b0b0 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: #b0b0b0 1px solid; WIDTH: 100px; BORDER-BOTTOM: #b0b0b0 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.form110 {
+	BORDER-RIGHT: #b0b0b0 1px solid; BORDER-TOP: #b0b0b0 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: #b0b0b0 1px solid; WIDTH: 110px; BORDER-BOTTOM: #b0b0b0 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.form150 {
+	BORDER-RIGHT: #b0b0b0 1px solid; BORDER-TOP: #b0b0b0 1px solid; FONT-SIZE: 7pt; BORDER-LEFT: #b0b0b0 1px solid; WIDTH: 150px; BORDER-BOTTOM: #b0b0b0 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+A.ast_lrj:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.ast_lrj:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.ast_lrj:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.ast_lrj:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.linktxt:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+A.linktxt:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+A.linktxt:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+A.linktxt:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+A.linktxt_m:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 7.7pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+A.linktxt_m:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 7.7pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+A.linktxt_m:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 7.7pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+A.linktxt_m:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 7.7pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+A.mapa:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 7.9pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+A.mapa:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 7.9pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+A.mapa:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 7.9pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: underline
+}
+A.mapa:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 7.9pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: underline
+}
+A.nav:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+A.nav:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+A.nav:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+A.outdoor:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #848484; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.outdoor:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #848484; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.outdoor:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.rodape:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.9pt; COLOR: #ffffff; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.rodape:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.9pt; COLOR: #ffffff; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.rodape:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.9pt; COLOR: #ffffff; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+A.rodape:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.9pt; COLOR: #ffffff; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.saiba:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.saiba:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.saiba:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+A.saiba:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.submenu:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.9pt; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+A.submenu:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.9pt; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+A.submenu:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.9pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: underline
+}
+A.submenu:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.9pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: underline
+}
+A.submenulrj:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.9pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+A.submenulrj:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.9pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+A.submenulrj:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.9pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: underline
+}
+A.submenulrj:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.9pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: underline
+}
+A.submenuazul:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.9pt; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+A.submenuazul:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.9pt; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+A.submenuazul:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.9pt; COLOR: #2a317d; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: underline
+}
+A.submenuazul:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.9pt; COLOR: #2a317d; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: underline
+}
+A.sup:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.sup:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.sup:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+A.sup:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.txt_dicas:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.txt_dicas:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.txt_dicas:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+A.txt_dicas:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.txt_cinza:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+A.txt_cinza:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+A.txt_cinza:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: underline
+}
+A.txt_cinza:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: underline
+}
+A.txt_cinza_n:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+A.txt_cinza_n:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+A.txt_cinza_n:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: underline
+}
+A.txt_cinza_n:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: underline
+}
+A.txt_cinza_c:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #a9a9a9; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+A.txt_cinza_c:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #a9a9a9; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+A.txt_cinza_c:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: underline
+}
+A.txt_cinza_c:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; LETTER-SPACING: 0px; TEXT-DECORATION: underline
+}
+A.txt_dicas_lrj:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.txt_dicas_lrj:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.txt_dicas_lrj:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+A.txt_dicas_lrj:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.tit_azul:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #2a317d; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.tit_azul:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #2a317d; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.tit_azul:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #2a317d; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+A.tit_azul:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #2a317d; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.tit_lrj:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.tit_lrj:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+A.tit_lrj:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+A.tit_lrj:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+.painel {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 202px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.painel2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 172px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.per_atend {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 315px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.topicos {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 220px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.topicos_mais {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 185px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.topicos_menor {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 125px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.estado_msg {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 125px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.estado {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 80px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.conta {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 140px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.cidade {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 175px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.bairro {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 175px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.perfil {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 200px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.shop {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 140px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.conv {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 195px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.conv2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 220px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.conv3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 160px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.titcombo {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+.unidade {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 125px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.data_compra {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 220px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.comp_cartoes {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 120px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.card_business {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 150px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.prod_credito {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 240px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.diaadia {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 170px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.contato {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 10px; BORDER-LEFT: 1px solid; WIDTH: 210px; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.msg_textarea {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 10px; BORDER-LEFT: 1px solid; WIDTH: 210px; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana,Arial,Helvetica; HEIGHT: 130px; BACKGROUND-COLOR: #ffffff
+}
+.combo100 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; WIDTH: 100px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.combo150 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; WIDTH: 150px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.combo200 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; WIDTH: 200px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.combo202 {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 202px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.combo205 {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; WIDTH: 205px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.combo300 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; WIDTH: 300px; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.txt_bemvindo {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #636b8c; FONT-FAMILY: arial, verdana, helvetica
+}
+.nav {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+.number {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.8pt; COLOR: #ffffff; FONT-FAMILY: verdana, helvetica, arial
+}
+.txt_nav {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: underline
+}
+.txt_nav_azul {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #2a317d; FONT-FAMILY: arial, verdana, helvetica
+}
+.tit_lrj_maior {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica
+}
+.tit_lrj_b {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica
+}
+.tit_azul_b {
+	FONT-WEIGHT: normal; FONT-SIZE: 12pt; COLOR: #2a317d; FONT-FAMILY: arial, verdana, helvetica
+}
+.tit_azul_maior {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #2a317d; FONT-FAMILY: arial, verdana, helvetica
+}
+.tit_azul {
+	FONT-WEIGHT: bold; FONT-SIZE: 8.5pt; COLOR: #2a317d; FONT-FAMILY: arial, verdana, helvetica
+}
+.txt_cinza_b {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica
+}
+.txt_cinza_n {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica
+}
+.txt_azul {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+.txt_azul_b {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #636b8c; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+.txt_branco {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+.txt_lrj_maior {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica
+}
+.txt_lrj {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica
+}
+.submenu {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.9pt; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+.txt_menor {
+	FONT-WEIGHT: normal; FONT-SIZE: 7.8pt; COLOR: #848684; FONT-FAMILY: arial, verdana, helvetica
+}
+.obs {
+	FONT-WEIGHT: normal; FONT-SIZE: 7.7pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; TEXT-ALIGN: justify; TEXT-DECORATION: none
+}
+.ast_lrj {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; VERTICAL-ALIGN: top; COLOR: #ff6600; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+.ast_azul {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; VERTICAL-ALIGN: top; COLOR: #2a317d; FONT-FAMILY: arial, verdana, helvetica; TEXT-DECORATION: none
+}
+UL {
+	TEXT-ALIGN: justify
+}
+OL {
+	TEXT-ALIGN: justify
+}
+.tdbranco {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #ffffff
+}
+.tdcinzacl {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #f9f9f9
+}
+.tdcinzaesc {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #818181; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #f4f4f4
+}
+.trtitulo {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: arial, verdana, helvetica; BACKGROUND-COLOR: #666666
+}

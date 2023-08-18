@@ -1,0 +1,1 @@
+<% response.redirect "edit_empresa.asp?edit=ok" %>

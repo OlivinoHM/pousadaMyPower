@@ -1,0 +1,1 @@
+<% response.redirect "edit_pacotes.asp?edit=ok" %>
