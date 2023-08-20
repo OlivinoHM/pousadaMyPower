@@ -10,8 +10,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- Inicio Programação topo ------------------------------------>
 <!--#include file="adm/Connections/dlfelix.asp" -->
-<!-- 
-<%	
+
+<!-- <%	
 
 	Set rec2 = Server.CreateObject("ADODB.Recordset")
 	
@@ -75,6 +75,29 @@ atualiza2.LockType = 1
 atualiza2.Open()
 
 atualiza2_numRows = 0
+%>
+<%
+Dim menu
+Dim menu_numRows
+
+Set menu = Server.CreateObject("ADODB.Recordset")
+menu.ActiveConnection = MM_dlfelix_STRING
+menu.Source = "SELECT * FROM categoria order by titulo asc"
+menu.CursorType = 0
+menu.CursorLocation = 2
+menu.LockType = 1
+menu.Open()
+
+menu_numRows = 0
+%>
+
+<%
+Dim Repeat23__numRows
+Dim Repeat23__index
+
+Repeat23__numRows = 100
+Repeat23__index = 0
+menu_numRows = menu_numRows + Repeat23__numRows
 %> -->
 
 
@@ -196,79 +219,86 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </header>
  
+ 
 <!--/HEADER-->
 
 	<!--NEWS-->
 	<div id="news-wrap">
 		<section id="guests">
-			<p class="pre-title">Um pouco mais sobre n&oacutes</p>
-			<!-- parte cod asp <h2><span></span> <span>A <%=(atualiza1.Fields.Item("nomeempresa").Value)%></span></h2> -->
-			<h2><span></span> <span>A Pousada MyPower</span></h2>
+			<p class="pre-title">Nossas Su&iacute;tes</p>
+			<!-- <h2>Conforto <span>e na</span> <span><%=(atualiza1.Fields.Item("nomeempresa").Value)%></span></h2> -->
+			<h2>Conforto <span>e na</span> <span>Pousada MyPower</Main></span></h2>
 			<hr>
-			 
+			<ul class="guests-items">
 				
+               
+                
                 <!--GUEST ITEM-->
-				 
-				<!-- <% if not rec2.eof then %> -->
-                <table width="100%" border="0" cellspacing="10">
-  <tr>
-    <td align="left"> <table width="100" border="0" cellspacing="10" style="float:left;">
-      <tr>
-        <!-- parte cod asp <td><img src="<%=(atualiza1.Fields.Item("img1").Value)%>" border="0" style="   height:300px; border-radius:10px ;  padding-right:20px 20px 20px 20px;"/></td> -->
-		<td><img src="images/1_446.png" border="0" style="   height:300px; border-radius:10px ;  padding-right:20px 20px 20px 20px;"/></td>
-      </tr>
-    <!-- </table><%=(atualiza1.Fields.Item("sobreempresa").Value)%></td> -->
-		</table>Fundada em 1995, a Pousada My Power desde então vem crescendo e cada vez mais se dedicando para melhor atender seus hospedes. Com 72 apartamentos, divididos entre suítes e flats que comportam de 02 a 16 pessoas, oferecemos simplicidade e conforto. Juntamente com o Rancho My Power, a Pousada My Power fica de frente á  praia. A 10 minutos do centro de Bertioga, próximo ao forte e a antiga balsa.</td>
-    </tr>
-  <tr>
-    <td align="left"></td>
-    </tr>
-</table>
+				
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				  
+			  </table>
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				  <tr>
+				    <!-- parte cod asp <td class="link style63"><a href="produtos.asp?categoria=<%=(menu.Fields.Item("id").Value)%>" class="link">
+						<p class="pre-title"><% While ((Repeat23__numRows <> 0) AND (NOT menu.EOF)) %></p> -->
+					<td class="link style63"><a href="produtos.html" class="link">
+						<p class="pre-title">Pre-titulo</p>
+				    </a>
+				      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+				        <tr>
+				          <td><div align="left">
+				            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+				              <tr>
+				                <!-- parte cod asp <td class="link style63"><a href="produtos.asp?categoria=<%=(menu.Fields.Item("id").Value)%>" class="link">
+				                  <p class="pre-title"><img src="<%=(menu.Fields.Item("img").Value)%>" width="366" height="267" border="0" class="borda" /><a href="produtos.asp?categoria=<%=(menu.Fields.Item("id").Value)%>" class="link"></p></td> -->
+								<td class="link style63"><a href="produtos.html" class="link">
+									<p class="pre-title"><img src="images/20160119100915.jpg" width="366" height="267" border="0" class="borda" /><a href="produtos.html" class="link"></p></td>
+			                  </tr>
+			                </table>
+				            </div></td>
+			            </tr>
+				        <tr>
+				          <td>&nbsp;</td>
+			            </tr>
+                        <tr>
+				          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				            <tr>
+				              <!-- parte cod asp <td class="link style63"><p class="pre-title"><a href="produtos.asp?categoria=<%=(menu.Fields.Item("id").Value)%>" class="subtitle" style="color:#666; font-size:15px" ><%=(menu.Fields.Item("titulo").Value)%></a></p></td> -->
+							  <td class="link style63"><p class="pre-title"><a href="produtos.html" class="subtitle" style="color:#666; font-size:15px" >Titulo</a></p></td>
+			                </tr>
+				            </table></td>
+			            </tr>
+				        <tr>
+				          <td>&nbsp;</td>
+			            </tr>
+                        <tr>
+                          <!-- parte cod asp <td class="link style63"><p class="pre-title"><a href="produtos.asp?categoria=<%=(menu.Fields.Item("id").Value)%>" class="subtitle" style="color:#999; font-size:9px" ><%=(menu.Fields.Item("resumo").Value)%></a></p> -->
+							<td class="link style63"><p class="pre-title"><a href="produtos.html" class="subtitle" style="color:#999; font-size:9px" >Resumo</a></p>
+                          <p class="pre-title">..........................................</p>
+                          <p class="pre-title">&nbsp;</p></td>
+                        </tr>
+			          </table>
 
-<table width="100%" border="0" cellspacing="10">
-  <tr>
-    <td align="left"> <table width="100%" border="0" cellspacing="10" style="float:left;">
-      <tr>
-        <td width="310"><p class="pre-title">Veja o video de apresenta&Ccedil;&Atilde;o.</p></td>
-      </tr>
-    </table></td>
-    </tr>
-  <tr>
-    <td align="left"></td>
-    </tr>
-</table>
-<table width="100%" border="0" cellspacing="10">
-  <tr>
-    <td align="left"> <table width="100%" border="0" cellspacing="10" style="float:left;">
-      <tr>
-        <td width="310">
-        <center><iframe width="700" height="500" src="https://www.youtube.com/embed/0i5JxmxcxxM" frameborder="0" allowfullscreen></iframe>>
-</object>
-</video></center>
-
-</td>
-      </tr>
-    </table></td>
-    </tr>
-  <tr>
-    <td align="left"></td>
-    </tr>
-</table>
-
-               <div> </div>
-
-                  <!-- parte cod asp <% end if %>   	 -->
-                    
-                    
-                    
-              </li>
+                      <!-- <a href="produtos.asp?categoria=<%=(menu.Fields.Item("id").Value)%>" class="link"></a></td>
+					  	<% 
+							Repeat23__index=Repeat23__index+1
+							Repeat23__numRows=Repeat23__numRows-1
+							menu.MoveNext()
+							Wend
+						%> -->
+						<a href="produtos.html" class="link"></a></td>
+						
+			      </tr>
+			  </table>
+				<li></li>
                    
 
                             
 				<!--/GUEST ITEM-->
 
 			
-			 
+			</ul>
 			<div class="cleaner"></div>
 		</section>
 	</div>
@@ -427,19 +457,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- fim da Pagina------------->
 
-<%	rec2.close
-												      %>
-</span>
-</div>
-</div>
-<div align="left">
-<%	end if
-
-%>
 <%
-categoria.Close()
-Set categoria = Nothing
-%>
+menu.Close()
+Set menu = Nothing
+ %>
 
 
 
