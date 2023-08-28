@@ -1,0 +1,417 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700);
+
+
+@media screen and (min-width: 480px) {
+    body {
+        margin-left: 15px;
+        background: #f4f4f4;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #8d9091;
+    }
+
+    ::-webkit-scrollbar {
+        width: 15px;
+        background: #f4f4f4;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 2px;
+        border-radius: 4px;
+    }
+
+    .clearfix:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    line-height: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+nav,
+article,
+section,
+aside,
+footer {
+    display: block;
+}
+
+figure {
+    line-height: 0;
+}
+
+figure>img {
+    width: 100%;
+}
+
+figure>figcaption {
+    display: none;
+}
+
+/***************************************/
+/* 2. GENERAL */
+/***************************************/
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8125em;
+    /* 13px / 16px */
+    font-weight: 400;
+    color: #999;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    margin: 10px 0;
+    color: #f4f4f4;
+    font-size: 2.375em;
+    /* 70px / 16px */
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+h1 span {
+    color: #15A0B9;
+}
+
+h2 {
+    color: #CCC;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    /* 32px / 16px */
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 0.05em;
+}
+
+h2 span {
+    font-weight: 300;
+}
+
+h2 span:last-child {
+    color: #15A0B9;
+}
+
+h2+hr {
+    width: 30px;
+    height: 0;
+    border-bottom: 2px solid #15A0B9;
+    margin: 25px auto 50px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 2.625em;
+    /* 42px / 16px */
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+h4 {
+    color: #fffefe;
+    font-size: 1.5em;
+    /* 24px / 16px */
+    font-weight: 400;
+}
+
+h4 span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.083333333333333em;
+    /* 26px / 24px */
+    text-transform: uppercase;
+}
+
+h5 {
+    color: #333;
+    font-size: 1.125em;
+    /* 18px / 16px */
+    font-weight: 700;
+}
+
+h5 span {
+    font-weight: 400;
+}
+
+h6 {
+    color: #fff;
+    font-size: 1em;
+    /* 16px / 16px */
+    font-weight: 700;
+}
+
+p.pre-title {
+    font-size: 0.75em;
+    /* 12px / 16px */
+    color: #7c7c7c;
+    letter-spacing: .5em;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p.pct-title {
+    font-size: 16px;
+    /* 12px / 16px */
+    font-style: bold color: #0CC;
+    letter-spacing: .3em;
+    line-height: 3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p.pct-preco {
+    font-size: 20px;
+    /* 12px / 16px */
+    color: #000;
+    letter-spacing: .3em;
+    line-height: 3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p.pct-obs {
+    font-size: 10px;
+    /* 12px / 16px */
+    color: #666;
+    letter-spacing: .3em;
+    line-height: 3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*-------------
+  2.1 WIDE
+-------------*/
+#main-nav,
+#about,
+#news,
+#guests,
+#promo,
+#schedule,
+#tickets,
+#sponsors,
+#blog-news,
+#contact,
+#footer-top,
+#footer-bottom,
+#blog,
+#special-guests,
+#floorplan,
+#gallery,
+#timeline,
+#subscribe {
+    max-width: 1170px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+/*-------------------
+  2.4 FORM STYLE
+-------------------*/
+input[type="text"],
+textarea {
+    width: 100%;
+    background-color: #f4f4f4;
+    color: #15A0B9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875em;
+    /* 14px / 16px */
+    font-weight: 400;
+    padding: 7px 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+button {
+    cursor: pointer;
+    line-height: 50px;
+}
+
+input[type="text"].error,
+textarea.error,
+input[type="text"].error:focus,
+textarea.error:focus {
+    border: 1px solid #db2e2e;
+}
+
+/*-------------------
+  2.5 PLACEHOLDERS
+-------------------*/
+::-webkit-input-placeholder {
+    /* Chrome */
+    color: #969696;
+    font-size: 1em;
+    /* 14px / 14px */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #969696;
+    font-size: 1em;
+    /* 14px / 14px */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #969696;
+    font-size: 1em;
+    /* 14px / 14px */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+:-ms-input-placeholder {
+    /* IE */
+    color: #969696;
+    font-size: 1em;
+    /* 14px / 14px */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+/***************************************/
+/* 13. CONTACT */
+/***************************************/
+#contact-wrap {
+    background-color: #234141;
+    margin: 10px;
+}
+
+#contact-wrap p {
+    text-align: center;
+}
+
+#contact-wrap table {
+    text-align: center;
+
+}
+
+#contact-wrap tr {
+    text-align: left;
+
+}
+
+#form-container td {
+    width: 100%;
+
+}
+
+#form-container {
+    width: 100%;
+    text-align: center;
+    float: center;
+
+
+}
+
+#dadosFormulario {
+    width: 100%;
+    float: right;
+
+}
+
+
+
+
+/*--------------------
+  13.1 CONTACT FORM
+--------------------*/
+#contact form {
+    float: center;
+
+}
+
+
+#contact form button {}
+
+
+
+/***************************************/
+/* 25. MEDIA QUERIES */
+/***************************************/
+@media screen and (max-width: 1320px) {}
+
+@media screen and (max-width: 950px) {
+    #contact {
+        background: #333;
+    }
+
+    #contact>article {
+        width: 80%;
+    }
+
+    #contact form,
+    #contact .info {
+        float: none;
+        width: 100%;
+    }
+
+    #contact .info {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 925px) {}
+
+@media screen and (max-width: 680px) {}
+
+@media screen and (max-width: 460px) {
+
+    /*---------------
+	  13. CONTACT 
+	---------------*/
+    #contact>article {
+        width: 100%;
+    }
+
+}

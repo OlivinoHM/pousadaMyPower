@@ -1,6 +1,17 @@
- #header{ margin-bottom:0px;}
- #header > img{ margin-top:10px;}
- #slideshow {    position: relative; }
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700);
+
+#header {
+    margin-bottom: 0px;
+}
+
+#header>img {
+    margin-top: 10px;
+}
+
+#slideshow {
+    position: relative;
+}
 .rslides {
     list-style: none;
     overflow: hidden;
@@ -62,8 +73,8 @@ ul.rslides_tabs {
 }
 .rslides_tabs li a {
     display: inline-block;
-    width: 25px;
-    height: 25px;
+    width: 15px;
+        height: 15px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;

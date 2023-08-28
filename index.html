@@ -106,16 +106,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			
 		<ul>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="empresa.html"> A POUSADA</a></li>
+				<li><a href="empresa.html"> A Pousada</a></li>
                 <li><a href="suites.html">Su&iacute;tes</a>
                 <li><a href="reservas.html"> Pacotes</a></li>
 				<li><a href="mapa.html">Como Chegar</a></li>
 				
 				<li><a href="contato.html">Contato</a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
 			</ul>
-      <a href="#" id="pull"> Menu&nbsp;&nbsp;</a></nav>
+	<a href="#" id="pull">
+		<div class="icon nav-icon-2">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</a>
+	</nav>
 	</div>
 	<!--/NAVIGATION-->	
 
@@ -164,7 +169,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     transition: opacity 500ms ease-in-out; background-image: url(images/slidecafe.jpg);" name="rslides1_s1">
 	<img src="images/slidecafe.jpg" alt="">
 	<div class="slideshow-caption">
-	<h1 class="sombra">Titulo slide 2</h1>
+	<h1 class="sombra" id="tituloSlide">Titulo slide 2</h1>
 
 	<h3>Resumo2</h3>  		
 	</div>
@@ -615,7 +620,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	      <td align="center"><p class="pre-title">Pousada My Power - Bertioga</p>
 	        <h2>Fale conosco<span></span></h2>
 	        <hr>
-	        <table width="600" border="0" cellspacing="10">
+			<table width="" border="0" cellspacing="10">
 	          <tr>
 	            <td width="60%" rowspan="3"><form action="formmail.asp" method="post" name="form1" id="form1"class="form-full-width contact-form">
 	              <input type="hidden" name="_redirect" value="contato2.asp" />
@@ -652,31 +657,41 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                   </div>
 	              </form></td>
-	            <td valign="top"><img src="images/about-item01.png" alt="ctc-option"></td>
-	            <td valign="top"><h6>Local</h6>
-	              <!-- parte cod asp <p><%=(atualiza1.Fields.Item("endereco").Value)%></p> -->
-				  <p>endereco</p>
-	              <p></td>
-              </tr>
-	          <tr>
-	            <td valign="top"><img src="images/contact-item02.png" alt="ctc-option"></td>
-	            <td valign="top"><h6>Telefone</h6>
-	              <!-- parte cod asp <p><%=(atualiza1.Fields.Item("telefone1").Value)%></p>
-	              <p><%=(atualiza1.Fields.Item("telefone2").Value)%>                  
-	              <p><%=(atualiza1.Fields.Item("telefone3").Value)%></td> -->
-				
-				  <p>telefone1</p>
-	              <p>telefone2</p>                  
-	              <p>telefone3</p></td>
-              </tr>
-	          <tr>
-	            <td width="9%" valign="top"><ul class="contact-items">
-	              <img src="images/contact-item03.png" alt="ctc-option">
-	              </ul></td>
-	            <td width="31%" valign="top"><h6> Email</h6>
-	              <!-- parte cod asp <p> <%=(atualiza1.Fields.Item("email").Value)%> </td> -->
-					<p>email</p></td>
-              </tr>
+				<div class="dadosFormulario">
+					<td valign="top"><img src="images/about-item01.png" alt="ctc-option"></td>
+					<td valign="top">
+						<h6>Local</h6>
+						<!-- parte cod asp <p><%=(atualiza1.Fields.Item("endereco").Value)%></p> -->
+						<p>endereco</p>
+						<p>
+							</td>
+							</tr>
+							<tr>
+								<td valign="top"><img src="images/contact-item02.png" alt="ctc-option"></td>
+						<td valign="top">
+							<h6>Telefone</h6>
+							<!-- parte cod asp <p><%=(atualiza1.Fields.Item("telefone1").Value)%></p>
+																																														<p><%=(atualiza1.Fields.Item("telefone2").Value)%>                  
+																																														<p><%=(atualiza1.Fields.Item("telefone3").Value)%></td> -->
+						
+							<p>telefone1</p>
+							<p>telefone2</p>
+							<p>telefone3</p>
+							</td>
+							</tr>
+							<tr>
+						<td width="9%" valign="top">
+							<ul class="contact-items">
+								<img src="images/contact-item03.png" alt="ctc-option">
+							</ul>
+							</td>
+							<td width="31%" valign="top">
+								<h6> Email</h6>
+								<!-- parte cod asp <p> <%=(atualiza1.Fields.Item("email").Value)%> </td> -->
+							<p>email</p>
+							</td>
+							</tr>
+				</div>
             </table></td>
         </tr>
       </table>

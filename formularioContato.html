@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menuStyle2.css">
+    <title>Teste formulario contato</title>
+</head>
+
+<body>
+
+    <!--CONTACT-->
+    <div id="contact-wrap">
+        <table>
+            <div class="pre-title">
+                <p>Pousada My Power - Bertioga</p>
+                <h2>Fale conosco<span></span></h2>
+                <hr>
+            </div>
+            <div>
+                <table>
+                    <div class="form-container">
+                        <tr>
+                            <td>
+                                <form action="formmail.asp" method="post" name="form1" id="form1"
+                                    class="contact-form row">
+                                    <input type="hidden" name="_redirect" value="contato2.asp" />
+                                    <input type="hidden" name="_subject" value="CONTATO SITE" />
+                                    <input type="hidden" name="_recipients" value="mypower@pousadamypower.com.br" />
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12">
+                                            <div class="form-group"></div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-12">
+                                            <div class="form-group">
+                                                <input placeholder="NOME" type="text" id="contact-subject1"
+                                                    name="Nome:" />
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-12">
+                                            <div class="form-group">
+                                                <input placeholder="TELEFONE" type="text" id="contact-subject2"
+                                                    name="Telefone:" />
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-12">
+                                            <div class="form-group">
+                                                <input placeholder="E-MAIL" type="text" id="contact-subject3"
+                                                    name="E-Mail" />
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-12">
+                                            <div class="form-group">
+                                                <textarea placeholder=" MENSAGEM" id="contact-message"
+                                                    name="Mensagem"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-12 text-left">
+                                            <div class="wrap-main">
+                                                <input type="submit" name="submit" id="submit" value="enviar"
+                                                    class="button ruby" style="float:right; width:100%; padding:5px;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                    </div>
+
+                    <div class="dadosFormulario">
+                        <tr>
+                            <td>
+                                <img src="images/about-item01.png" alt="ctc-option">
+                            </td>
+                            <td>
+                                <h6>Local</h6>
+                                <!-- parte cod asp <p><%=(atualiza1.Fields.Item("endereco").Value)%></p> -->
+                                <p>endereco</p>
+                                <p>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="images/contact-item02.png" alt="ctc-option">
+                            </td>
+                            <td>
+                                <h6>Telefone</h6>
+                                <!-- parte cod asp <p><%=(atualiza1.Fields.Item("telefone1").Value)%></p>
+                                        <p><%=(atualiza1.Fields.Item("telefone2").Value)%>
+                                        <p><%=(atualiza1.Fields.Item("telefone3").Value)%></td> -->
+                                <p>telefone1</p>
+                                <p>telefone2</p>
+                                <p>telefone3</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="contact-items">
+
+                                <img src="images/contact-item03.png" alt="ctc-option">
+
+                            </td>
+                            <td>
+                                <h6> Email</h6>
+                                <!-- parte cod asp <p> <%=(atualiza1.Fields.Item("email").Value)%> </td> -->
+                                <p>email</p>
+                            </td>
+                        </tr>
+                    </div>
+                </table>
+
+            </div>
+        </table>
+    </div>
+    <!--/CONTACT-->
+
+    <!--FOOTER-->
+    <footer>
+
+
+        <div id="footer-bottom-wrap">
+            <section id="footer-bottom">
+                <h6><span>Pousada My Power &copy;</span> 2015 Todos os direitos reservados / AOL - Sistemhost -
+                    Printsystem
+                </h6>
+                <ul class="social-links small">
+                    <a class="soboo soboo-simple" data-hover="counter" data-model="circle" data-orientation="horizontal"
+                        data-services="twitter facebook favoritos googleplus  google email mais" data-userid="15963"
+                        id="vertical"></a>
+                    <script type='text/javascript' src="http://www.seomaster.com.br/js/soboo2.js"></script>
+        </div>
+    </footer>
+    <!--/FOOTER-->
+
+</body>
+
+</html>

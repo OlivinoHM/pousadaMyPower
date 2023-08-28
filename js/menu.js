@@ -24,6 +24,14 @@ if(windowSize > 1150) {
 	mainMenuItem.bind('click', expandMenu);
 }
 
+/**icon menu */
+const icons = document.querySelectorAll('.icon');
+icons.forEach (icon => {  
+  icon.addEventListener('click', (event) => {
+    icon.classList.toggle("open");
+  });
+});
+// ----------- final icon
 /**
  * Prevent sub-item click from bubbling up the DOM tree
  */
