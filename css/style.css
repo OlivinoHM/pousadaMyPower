@@ -235,7 +235,7 @@ p.pre-title {
 }
 p.pct-title {
 	font-size: 16px; /* 12px / 16px */
-	font-style:bold
+	font-style: bold;
 	color: #0CC ;
 	letter-spacing: .3em;
 	line-height: 3em;
