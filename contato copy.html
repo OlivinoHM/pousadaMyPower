@@ -105,25 +105,29 @@ atualiza2_numRows = 0
 	<!-- End Google Tag Manager�(noscript)�-->
 
 	<!-- MENU TOPO ------>
-	<!--NAVIGATION-->
-	<div id="nav-wrap">
-		<nav id="main-nav">
+<!--NAVIGATION-->
+<div id="nav-wrap">
+	<nav id="main-nav">
 
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="empresa.html"> A POUSADA</a></li>
-				<li><a href="suites.html">Su&iacute;tes</a>
-				<li><a href="reservas.html"> Pacotes</a></li>
-				<li><a href="mapa.html">Como Chegar</a></li>
-
-				<li><a href="contato.html">Contato</a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
-			</ul>
-			<a href="#" id="pull"> Menu&nbsp;&nbsp;</a>
-		</nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="empresa.html"> A Pousada</a></li>
+			<li><a href="suites.html">Su&iacute;tes</a>
+			<li><a href="reservas.html"> Pacotes</a></li>
+			<li><a href="mapa.html">Como Chegar</a></li>
+			
+			<li><a href="contato.html">Contato</a></li>
+		</ul>
+<a href="#" id="pull">
+	<div class="icon nav-icon-2">
+		<span></span>
+		<span></span>
+		<span></span>
 	</div>
-	<!--/NAVIGATION-->
+</a>
+</nav>
+</div>
+<!--/NAVIGATION-->
 
 	<!-- BANNER PROMO��ES ------------------------------------------------------------------>
 
@@ -209,120 +213,121 @@ atualiza2_numRows = 0
 	<!--/HEADER-->
 	<!--NEWS-->
 
-	<section id="guests">
-		<!-- parte cod asp <p class="pre-title"><%=(atualiza1.Fields.Item("nomeempresa").Value)%></p> -->
-		<p class="pre-title">Pousada MyPower</p>
-		<h2>Entre em <span>contato</span> <span>conosco</span></h2>
-	</section>
-
-
-
-
-	<!--CONTACT-->
-	<div id="contact-wrap">
-		<div class="contact-title">
-			<p class="pre-title">Pousada My Power - Bertioga</p>
-			<h2>Fale conosco<span></span></h2>
+	<div id="news-wrap">
+		<section id="guests">
+			<!-- parte cod asp <p class="pre-title"><%=(atualiza1.Fields.Item("nomeempresa").Value)%></p> -->
+			<p class="pre-title">Pousada MyPower</p>
+			<h2>Entre em <span>contato</span> <span>conosco</span></h2>
 			<hr>
-		</div>
-		<div class="contact-table">
-			<table cellspacing="10">
-				<form action="formmail.asp" method="post" name="form1" id="form1" class="form-full-width">
-					<input type="hidden" name="_redirect" value="contato2.asp" />
-					<input type="hidden" name="_subject" value="CONTATO SITE" />
-					<input type="hidden" name="_recipients" value="mypower@pousadamypower.com.br" />
-					<div class="row">
-						<div class="col-xs-12 col-sm-12">
-							<div class="form-group"></div>
-						</div>
-						<div class="col-xs-12 col-sm-12">
-							<div class="form-group">
-								<input placeholder="NOME" type="text" id="contact-subject1" name="Nome:" />
-							</div>
-						</div>
-						<div class="col-xs-12 col-sm-12">
-							<div class="form-group">
-								<input placeholder="TELEFONE" type="text" id="contact-subject2" name="Telefone:" />
-							</div>
-						</div>
-						<div class="col-xs-12 col-sm-12">
-							<div class="form-group">
-								<input placeholder="E-MAIL" type="text" id="contact-subject3" name="E-Mail" />
-							</div>
-						</div>
-						<div class="col-xs-12 col-sm-12">
-							<div class="form-group">
-								<textarea placeholder=" MENSAGEM" id="contact-message" name="Mensagem"></textarea>
-							</div>
-						</div>
-						<div class="col-xs-12 col-sm-12">
-							<div class="wrap-main">
-								<input type="submit" name="submit" id="submit" value="enviar" class="button ruby">
-							</div>
-						</div>
+			<ul class="guests-items">
+
+				<!--CONTACT-->
+				<div id="contact-wrap">
+					<div class="contact-title">
+						<p class="pre-title">Pousada My Power - Bertioga</p>
+						<h2>Fale conosco<span></span></h2>
+						<hr>
 					</div>
-				</form>
-			</table>
-		</div>
-		<div class="contact-data">
-			<table>
-				<tr>
-					<td valign="top">
-						<img src="images/about-item01.png" alt="ctc-option">
-					</td>
-					<td valign="top">
-						<h6>Local</h6>
-						<!-- parte cod asp <p><%=(atualiza1.Fields.Item("endereco").Value)%></p> -->
-						<p>endereco</p>
-						<p></p>
-					</td>
-				</tr>
-				<tr>
-					<td valign="top">
-						<img src="images/contact-item02.png" alt="ctc-option">
-					</td>
-					<td valign="top">
-						<h6>Telefone</h6>
-						<!-- parte cod asp <p><%=(atualiza1.Fields.Item("telefone1").Value)%></p><p><%=(atualiza1.Fields.Item("telefone2").Value)%><p><%=(atualiza1.Fields.Item("telefone3").Value)%></td> -->
+					<div class="contact-table">
+						<table cellspacing="10">
+							<form action="formmail.asp" method="post" name="form1" id="form1" class="form-full-width">
+								<input type="hidden" name="_redirect" value="contato2.asp" />
+								<input type="hidden" name="_subject" value="CONTATO SITE" />
+								<input type="hidden" name="_recipients" value="mypower@pousadamypower.com.br" />
+								<div class="row">
+									<div class="col-xs-12 col-sm-12">
+										<div class="form-group"></div>
+									</div>
+									<div class="col-xs-12 col-sm-12">
+										<div class="form-group">
+											<input placeholder="NOME" type="text" id="contact-subject1" name="Nome:" />
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-12">
+										<div class="form-group">
+											<input placeholder="TELEFONE" type="text" id="contact-subject2" name="Telefone:" />
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-12">
+										<div class="form-group">
+											<input placeholder="E-MAIL" type="text" id="contact-subject3" name="E-Mail" />
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-12">
+										<div class="form-group">
+											<textarea placeholder=" MENSAGEM" id="contact-message" name="Mensagem"></textarea>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-12">
+										<div class="wrap-main">
+											<input type="submit" name="submit" id="submit" value="enviar" class="button ruby">
+										</div>
+									</div>
+								</div>
+							</form>
+						</table>
+					</div>
+					<div class="contact-data">
+						<table>
+							<tr>
+								<td valign="top">
+									<img src="images/about-item01.png" alt="ctc-option">
+								</td>
+								<td valign="top">
+									<h6>Local</h6>
+									<!-- parte cod asp <p><%=(atualiza1.Fields.Item("endereco").Value)%></p> -->
+									<p>endereco</p>
+									<p></p>
+								</td>
+							</tr>
+							<tr>
+								<td valign="top">
+									<img src="images/contact-item02.png" alt="ctc-option">
+								</td>
+								<td valign="top">
+									<h6>Telefone</h6>
+									<!-- parte cod asp <p><%=(atualiza1.Fields.Item("telefone1").Value)%></p><p><%=(atualiza1.Fields.Item("telefone2").Value)%><p><%=(atualiza1.Fields.Item("telefone3").Value)%></td> -->
 
-						<p>telefone1</p>
-						<p>telefone2</p>
-						<p>telefone3</p>
-					</td>
-				</tr>
-				<tr>
-					<td width="9%" valign="top">
-						<ul class="contact-items">
-							<img src="images/contact-item03.png" alt="ctc-option">
-						</ul>
-					</td>
-					<td width="31%" valign="top">
-						<h6> Email</h6>
-						<!-- parte cod asp <p> <%=(atualiza1.Fields.Item("email").Value)%> </td> -->
-						<p>email</p>
-					</td>
-				</tr>
-			</table>
-		</div>
-	</div>
-	<!--/CONTACT-->
+									<p>telefone1</p>
+									<p>telefone2</p>
+									<p>telefone3</p>
+									</td>
+									</tr>
+									<tr>
+										<td width="9%" valign="top">
+											<ul class="contact-items">
+												<img src="images/contact-item03.png" alt="ctc-option">
+											</ul>
+										</td>
+										<td width="31%" valign="top">
+											<h6> Email</h6>
+											<!-- parte cod asp <p> <%=(atualiza1.Fields.Item("email").Value)%> </td> -->
+											<p>email</p>
+										</td>
+									</tr>
+									</table>
+									</div>
+									</div>
+									<!--/CONTACT-->
 
-	<!--FOOTER-->
-	<footer>
-		<div id="footer-bottom-wrap">
-			<section id="footer-bottom">
-				<h6><span>Pousada My Power &copy;</span> 2015 Todos os direitos reservados / AOL - Sistemhost -
-					Printsystem</h6>
-				<ul class="social-links small">
-					<a class="soboo soboo-simple" data-hover="counter" data-model="circle" data-orientation="horizontal"
-						data-services="twitter facebook favoritos googleplus  google email mais" data-userid="15963"
-						id="vertical"></a>
-					<script type='text/javascript' src="http://www.seomaster.com.br/js/soboo2.js"></script>
-				</ul>
+				<!--FOOTER-->
+				<footer>
+					<div id="footer-bottom-wrap">
+						<section id="footer-bottom">
+							<h6><span>Pousada My Power &copy;</span> 2015 Todos os direitos reservados / AOL - Sistemhost -
+								Printsystem</h6>
+							<ul class="social-links small">
+								<a class="soboo soboo-simple" data-hover="counter" data-model="circle" data-orientation="horizontal"
+									data-services="twitter facebook favoritos googleplus  google email mais" data-userid="15963"
+									id="vertical"></a>
+								<script type='text/javascript' src="http://www.seomaster.com.br/js/soboo2.js"></script>
+							</ul>
+						</section>
+					</div>
+				</footer>
+				<!--/FOOTER-->
+			</ul>
 			</section>
-		</div>
-	</footer>
-	<!--/FOOTER-->
 
 	<!--jQuery-->
 	<script src="js/jquery-1.11.1.min.js"></script>

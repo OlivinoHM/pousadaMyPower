@@ -12,8 +12,6 @@
 .button.ruby {
 	background-color: #099;
 	width: 150px;
-	height: 30px;
-	text-align: center;
 }
 
 /*   */
@@ -147,9 +145,6 @@
 		padding: 10px;
 	}
 
-	.wrap-main input {
-		margin: 0 auto;
-	}
 }
 
 body {
@@ -3774,7 +3769,6 @@ textarea.error:focus {
 
 @media screen and (max-width: 680px) {
 
-
 	/*-----------------
 	  6.1 NEWS ITEMS
 	-----------------*/
@@ -4046,12 +4040,7 @@ textarea.error:focus {
 
 	.contact-data td {
 		padding: 10px;
-	}
-
-	.wrap-main input {
-		margin: 0 auto;
-	}
-
+	
 }
 
 @media screen and (max-width: 460px) {
