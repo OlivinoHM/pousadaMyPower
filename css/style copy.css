@@ -130,7 +130,7 @@
 	.contact-table {
 		padding: 10px;
 		float: left;
-		width: 50%;
+		width: 40%;
 		margin-top: 30px;
 	}
 
@@ -172,7 +172,7 @@ a {
 }
 
 .sombra {
-	color: #f4f4f4;
+	color: #ffffff;
 	text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
 	letter-spacing: 5px;
 }
